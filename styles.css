@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image:url("wp9605654.jpg");
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+  }
+  
+  .container {
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: #73addfcf;
+  
+    box-shadow: 0 2px 4px rgba(5, 134, 232, 0.1);
+    border-radius: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-bottom:30px ;
+    font-size: xx-large;
+    color: #02074c;
+  }
+  
+  .question {
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 40px;
+    padding-left: 80px;
+  }
+  
+  .options {
+    margin-bottom: 70px;
+  
+  }
+  
+  .option {
+    display: block;
+    margin-bottom: 15px;
+    font-size: larger;
+    padding-left: 130px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 560px;
+    background-color: #02074c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .button:hover {
+    background-color: #0903b7;
+  }
+  
+  .result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .hide{
+    display: none;
+  }
